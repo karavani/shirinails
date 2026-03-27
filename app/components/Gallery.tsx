@@ -111,7 +111,7 @@ export default function Gallery() {
         {/* Instagram CTA */}
         <AnimatedSection className="text-center mt-14" delay={0.2}>
           <a
-            href="https://instagram.com/shirinails"
+            href="https://www.instagram.com/shiris_nails/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 px-8 py-4 rounded-full font-medium text-base border-2 transition-all duration-300 hover:scale-105 hover:shadow-lg"

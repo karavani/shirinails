@@ -104,7 +104,7 @@ export default function Hero() {
         {/* CTAs */}
         <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
-            href="https://wa.me/972501234567"
+            href="https://wa.me/972545824337"
             target="_blank"
             rel="noopener noreferrer"
             className="group inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full text-white font-medium text-base shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"

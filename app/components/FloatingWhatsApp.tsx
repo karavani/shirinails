@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 export default function FloatingWhatsApp() {
   return (
     <motion.a
-      href="https://wa.me/972501234567?text=היי שירי! אשמח לקבוע תור 😊"
+      href="https://wa.me/972545824337?text=היי שירי! אשמח לקבוע תור 😊"
       target="_blank"
       rel="noopener noreferrer"
       initial={{ scale: 0, opacity: 0 }}

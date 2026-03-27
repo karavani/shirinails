@@ -42,7 +42,7 @@ export default function Contact() {
           {/* WhatsApp */}
           <AnimatedSection delay={0.1} direction="left">
             <motion.a
-              href="https://wa.me/972501234567"
+              href="https://wa.me/972545824337"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.03, boxShadow: "0 20px 50px rgba(37,211,102,0.25)" }}
@@ -62,7 +62,7 @@ export default function Contact() {
               <div>
                 <p className="text-white font-medium text-lg mb-1">וואטסאפ</p>
                 <p style={{ color: "rgba(255,255,255,0.5)" }} className="text-sm">
-                  050-123-4567
+                  054-582-4337
                 </p>
                 <p style={{ color: "rgba(255,255,255,0.35)" }} className="text-xs mt-1">
                   זמינה א׳–ו׳ 09:00–20:00
@@ -86,7 +86,7 @@ export default function Contact() {
           {/* Instagram */}
           <AnimatedSection delay={0.2} direction="right">
             <motion.a
-              href="https://instagram.com/shirinails"
+              href="https://www.instagram.com/shiris_nails/"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.03, boxShadow: "0 20px 50px rgba(201,132,138,0.25)" }}
@@ -110,7 +110,7 @@ export default function Contact() {
               <div>
                 <p className="text-white font-medium text-lg mb-1">אינסטגרם</p>
                 <p style={{ color: "rgba(255,255,255,0.5)" }} className="text-sm">
-                  @shirinails
+                  @shiris_nails
                 </p>
                 <p style={{ color: "rgba(255,255,255,0.35)" }} className="text-xs mt-1">
                   עיצובים, טיפים ועדכונים
@@ -135,7 +135,7 @@ export default function Contact() {
         {/* Big CTA */}
         <AnimatedSection className="text-center" delay={0.3}>
           <motion.a
-            href="https://wa.me/972501234567?text=היי שירי! אשמח לקבוע תור 😊"
+            href="https://wa.me/972545824337?text=היי שירי! אשמח לקבוע תור 😊"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05, boxShadow: "0 25px 60px rgba(201,132,138,0.5)" }}

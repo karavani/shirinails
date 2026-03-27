@@ -2,62 +2,67 @@
 @import "tailwindcss";
 
 :root {
-  --rose: #c9848a;
-  --rose-light: #f2dada;
-  --rose-dark: #a5616a;
-  --cream: #faf6f1;
-  --warm-white: #fffcf9;
-  --charcoal: #2c2c2c;
-  --muted: #8a7f7a;
+  --primary: #b5a090;
+  --primary-light: #e8ddd4;
+  --primary-dark: #8a7060;
+  --cream: #f5f0ea;
+  --warm-white: #fdfaf7;
+  --charcoal: #2c2826;
+  --muted: #9a8f87;
   --gold: #c9a96e;
+  --linen: #cdbfad;
+
+  --rose: var(--primary);
+  --rose-light: var(--primary-light);
+  --rose-dark: var(--primary-dark);
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+/*
+  ב-Tailwind v4 קוד CSS "רגיל" (unlayered) גובר על utility classes.
+  הרסט חייב להיות בתוך @layer base כדי שה-utilities יוכלו לעקוף אותו.
+*/
+@layer base {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: var(--warm-white);
+    color: var(--charcoal);
+    font-family: 'Jost', sans-serif;
+    overflow-x: hidden;
+    direction: rtl;
+  }
+
+  h1, h2, h3 {
+    font-family: 'Cormorant Garamond', serif;
+  }
+
+  ::selection {
+    background: var(--primary-light);
+    color: var(--primary-dark);
+  }
+
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: var(--cream); }
+  ::-webkit-scrollbar-thumb { background: var(--linen); border-radius: 3px; }
 }
 
-html {
-  scroll-behavior: smooth;
-}
+@layer utilities {
+  .gradient-text {
+    background: linear-gradient(135deg, var(--primary-dark) 0%, var(--gold) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
 
-body {
-  background: var(--warm-white);
-  color: var(--charcoal);
-  font-family: 'Jost', sans-serif;
-  overflow-x: hidden;
-  direction: rtl;
-}
-
-h1, h2, h3 {
-  font-family: 'Cormorant Garamond', serif;
-}
-
-::selection {
-  background: var(--rose-light);
-  color: var(--rose-dark);
-}
-
-/* Smooth scrollbar */
-::-webkit-scrollbar {
-  width: 6px;
-}
-::-webkit-scrollbar-track {
-  background: var(--cream);
-}
-::-webkit-scrollbar-thumb {
-  background: var(--rose);
-  border-radius: 3px;
-}
-
-.gradient-text {
-  background: linear-gradient(135deg, var(--rose-dark) 0%, var(--gold) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.rose-gradient {
-  background: linear-gradient(135deg, #fdf0ef 0%, #f9e4e4 50%, #fdf0ef 100%);
+  .rose-gradient {
+    background: linear-gradient(135deg, #f5f0ea 0%, #ede5db 50%, #f5f0ea 100%);
+  }
 }
