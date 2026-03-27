@@ -33,7 +33,7 @@ export default function Contact() {
             <span className="italic gradient-text">היום</span>
           </h2>
           <p className="text-base leading-relaxed max-w-md mx-auto" style={{ color: "rgba(255,255,255,0.6)" }}>
-            אני זמינה בווצאפ ובאינסטגרם. שלחי הודעה ואחזור אלייך בהקדם.
+            שלחי הודעה בווצאפ או באינסטגרם ואחזור אלייך בהקדם.
           </p>
         </AnimatedSection>
 
@@ -63,9 +63,6 @@ export default function Contact() {
                 <p className="text-white font-medium text-lg mb-1">וואטסאפ</p>
                 <p style={{ color: "rgba(255,255,255,0.5)" }} className="text-sm">
                   054-582-4337
-                </p>
-                <p style={{ color: "rgba(255,255,255,0.35)" }} className="text-xs mt-1">
-                  זמינה א׳–ו׳ 09:00–20:00
                 </p>
               </div>
               <svg
