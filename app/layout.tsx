@@ -6,12 +6,16 @@ const SITE_URL = "https://shiri-nails.vercel.app";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Shiri Nails | מניקור ג׳ל מקצועי – שירי",
+    default: "מניקור + לק ג׳ל ב-120 ₪ | שירי נייל כפר סבא",
     template: "%s | Shiri Nails",
   },
   description:
-    "שירי – מניקוריסטית מקצועית בכפר סבא. מניקור ג׳ל, לק ג׳ל, בילד אפ, בניה בג׳ל, קישוטים ונייל ארט. אסף שמחה 1, כפר סבא. קביעת תור בווצאפ.",
+    "מניקור + לק ג׳ל ב-120 ₪ בלבד בכפר סבא. שירי – מניקוריסטית מקצועית. בילד אפ, קישוטים ונייל ארט. אסף שמחה 1, כפר סבא. קביעת תור בווצאפ.",
   keywords: [
+    "מניקור לק ג׳ל כפר סבא",
+    "מניקור לק ג׳ל 120",
+    "לק ג׳ל 120 שח",
+    "מניקור 120 שח",
     "מניקור",
     "מניקור ג׳ל",
     "לק ג׳ל",
@@ -46,9 +50,9 @@ export const metadata: Metadata = {
     url: SITE_URL,
     siteName: "Shiri Nails",
     locale: "he_IL",
-    title: "Shiri Nails | מניקור ג׳ל מקצועי",
+    title: "מניקור + לק ג׳ל ב-120 ₪ | שירי נייל כפר סבא",
     description:
-      "שירי – מניקוריסטית מקצועית בכפר סבא. מניקור ג׳ל, בילד אפ, קישוטים ונייל ארט. קביעת תור בווצאפ.",
+      "מניקור + לק ג׳ל ב-120 ₪ בלבד בכפר סבא. שירי – מניקוריסטית מקצועית. בילד אפ, קישוטים ונייל ארט. קביעת תור בווצאפ.",
     images: [
       {
         url: "/SN light.png",
@@ -60,9 +64,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Shiri Nails | מניקור ג׳ל מקצועי",
+    title: "מניקור + לק ג׳ל ב-120 ₪ | שירי נייל כפר סבא",
     description:
-      "שירי – מניקוריסטית מקצועית בכפר סבא. מניקור ג׳ל, בילד אפ, קישוטים ונייל ארט.",
+      "מניקור + לק ג׳ל ב-120 ₪ בלבד בכפר סבא. שירי – מניקוריסטית מקצועית. בילד אפ, קישוטים ונייל ארט.",
     images: ["/SN light.png"],
   },
   icons: {
@@ -76,7 +80,7 @@ const jsonLd = {
   "@type": "BeautySalon",
   name: "Shiri Nails",
   description:
-    "מניקוריסטית מקצועית בכפר סבא – מניקור ג׳ל, בילד אפ, בניה בג׳ל, קישוטים ונייל ארט.",
+    "מניקור + לק ג׳ל ב-120 ₪ בלבד בכפר סבא. מניקוריסטית מקצועית – בילד אפ, בניה בג׳ל, קישוטים ונייל ארט.",
   url: SITE_URL,
   telephone: "+972545824337",
   image: `${SITE_URL}/SN light.png`,
@@ -98,11 +102,9 @@ const jsonLd = {
     "@type": "OfferCatalog",
     name: "שירותי מניקור",
     itemListElement: [
-      { "@type": "Offer", itemOffered: { "@type": "Service", name: "מניקור" }, price: "100", priceCurrency: "ILS" },
-      { "@type": "Offer", itemOffered: { "@type": "Service", name: "מניקור + לק ג׳ל" }, price: "140", priceCurrency: "ILS" },
-      { "@type": "Offer", itemOffered: { "@type": "Service", name: "מניקור + לק ג׳ל ומבנה אנטומי" }, price: "160", priceCurrency: "ILS" },
-      { "@type": "Offer", itemOffered: { "@type": "Service", name: "מילוי בבילד אפ" }, price: "180", priceCurrency: "ILS" },
-      { "@type": "Offer", itemOffered: { "@type": "Service", name: "בניה בג׳ל עם טיפס הפוך" }, price: "400", priceCurrency: "ILS" },
+      { "@type": "Offer", itemOffered: { "@type": "Service", name: "מניקור" }, price: "89", priceCurrency: "ILS" },
+      { "@type": "Offer", itemOffered: { "@type": "Service", name: "מניקור + לק ג׳ל בכפר סבא" }, price: "120", priceCurrency: "ILS" },
+      { "@type": "Offer", itemOffered: { "@type": "Service", name: "מילוי בבילד אפ" }, price: "159", priceCurrency: "ILS" },
     ],
   },
 };
