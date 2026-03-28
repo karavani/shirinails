@@ -74,7 +74,7 @@ export default function Hero() {
             className="text-sm tracking-[0.25em] font-medium uppercase"
             style={{ color: "var(--rose-dark)" }}
           >
-            מניקור ופדיקור מקצועי
+            מניקור מקצועי
           </span>
           <span className="block h-px w-10 bg-[var(--rose)]" />
         </motion.div>

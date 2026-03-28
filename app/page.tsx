@@ -4,6 +4,7 @@ import Services from "./components/Services";
 import Gallery from "./components/Gallery";
 import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
+import Map from "./components/Map";
 import Footer from "./components/Footer";
 import FloatingWhatsApp from "./components/FloatingWhatsApp";
 
@@ -17,6 +18,7 @@ export default function Home() {
         <Gallery />
         <Testimonials />
         <Contact />
+        <Map />
       </main>
       <Footer />
       <FloatingWhatsApp />
