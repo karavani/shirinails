@@ -20,10 +20,10 @@ export default function Map() {
               <span style={{ display: "block", height: "1px", width: "32px", background: "var(--primary)" }} />
             </div>
             <p className="text-white font-light text-lg" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
-              אסף שמחה 1, כפר סבא
+              כפר סבא
             </p>
             <a
-              href="https://maps.google.com/?q=אסף+שמחה+1,+כפר+סבא"
+              href="https://maps.google.com/?q=כפר+סבא"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center text-xs mt-2 transition-opacity hover:opacity-70"
@@ -40,8 +40,8 @@ export default function Map() {
           {/* Map */}
           <div style={{ height: "340px", overflow: "hidden" }}>
             <iframe
-              title="מיקום Shiri Nails – אסף שמחה 1 כפר סבא"
-              src="https://www.google.com/maps?q=אסף+שמחה+1,+כפר+סבא,+ישראל&output=embed&hl=he&z=16"
+              title="מיקום Shiri Nails – כפר סבא"
+              src="https://www.google.com/maps?q=כפר+סבא,+ישראל&output=embed&hl=he&z=14"
               width="100%"
               height="100%"
               style={{ border: 0, display: "block", filter: "grayscale(30%) contrast(1.05)" }}
