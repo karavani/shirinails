@@ -6,16 +6,16 @@ const SITE_URL = "https://shiri-nails.vercel.app";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "מניקור + לק ג׳ל ב-120 ₪ | שירי נייל כפר סבא",
+    default: "מניקור + לק ג׳ל ב-130 ₪ | שירי נייל כפר סבא",
     template: "%s | Shiri Nails",
   },
   description:
-    "מניקור + לק ג׳ל ב-120 ₪ בלבד בכפר סבא. שירי – מניקוריסטית מקצועית. בילד אפ, קישוטים ונייל ארט. אסף שמחה 1, כפר סבא. קביעת תור בווצאפ.",
+    "מניקור + לק ג׳ל ב-130 ₪ בלבד בכפר סבא. שירי – מניקוריסטית מקצועית. בילד אפ, קישוטים ונייל ארט. כפר סבא. קביעת תור בווצאפ.",
   keywords: [
     "מניקור לק ג׳ל כפר סבא",
-    "מניקור לק ג׳ל 120",
-    "לק ג׳ל 120 שח",
-    "מניקור 120 שח",
+    "מניקור לק ג׳ל 130",
+    "לק ג׳ל 130 שח",
+    "מניקור 130 שח",
     "מניקור",
     "מניקור ג׳ל",
     "לק ג׳ל",
@@ -50,9 +50,9 @@ export const metadata: Metadata = {
     url: SITE_URL,
     siteName: "Shiri Nails",
     locale: "he_IL",
-    title: "מניקור + לק ג׳ל ב-120 ₪ | שירי נייל כפר סבא",
+    title: "מניקור + לק ג׳ל ב-130 ₪ | שירי נייל כפר סבא",
     description:
-      "מניקור + לק ג׳ל ב-120 ₪ בלבד בכפר סבא. שירי – מניקוריסטית מקצועית. בילד אפ, קישוטים ונייל ארט. קביעת תור בווצאפ.",
+      "מניקור + לק ג׳ל ב-130 ₪ בלבד בכפר סבא. שירי – מניקוריסטית מקצועית. בילד אפ, קישוטים ונייל ארט. קביעת תור בווצאפ.",
     images: [
       {
         url: "/SN light.png",
@@ -64,9 +64,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "מניקור + לק ג׳ל ב-120 ₪ | שירי נייל כפר סבא",
+    title: "מניקור + לק ג׳ל ב-130 ₪ | שירי נייל כפר סבא",
     description:
-      "מניקור + לק ג׳ל ב-120 ₪ בלבד בכפר סבא. שירי – מניקוריסטית מקצועית. בילד אפ, קישוטים ונייל ארט.",
+      "מניקור + לק ג׳ל ב-130 ₪ בלבד בכפר סבא. שירי – מניקוריסטית מקצועית. בילד אפ, קישוטים ונייל ארט.",
     images: ["/SN light.png"],
   },
   icons: {
@@ -80,7 +80,7 @@ const jsonLd = {
   "@type": "BeautySalon",
   name: "Shiri Nails",
   description:
-    "מניקור + לק ג׳ל ב-120 ₪ בלבד בכפר סבא. מניקוריסטית מקצועית – בילד אפ, בניה בג׳ל, קישוטים ונייל ארט.",
+    "מניקור + לק ג׳ל ב-130 ₪ בלבד בכפר סבא. מניקוריסטית מקצועית – בילד אפ, בניה בג׳ל, קישוטים ונייל ארט.",
   url: SITE_URL,
   telephone: "+972545824337",
   image: `${SITE_URL}/SN light.png`,
@@ -103,7 +103,7 @@ const jsonLd = {
     name: "שירותי מניקור",
     itemListElement: [
       { "@type": "Offer", itemOffered: { "@type": "Service", name: "מניקור" }, price: "89", priceCurrency: "ILS" },
-      { "@type": "Offer", itemOffered: { "@type": "Service", name: "מניקור + לק ג׳ל בכפר סבא" }, price: "120", priceCurrency: "ILS" },
+      { "@type": "Offer", itemOffered: { "@type": "Service", name: "מניקור + לק ג׳ל בכפר סבא" }, price: "130", priceCurrency: "ILS" },
       { "@type": "Offer", itemOffered: { "@type": "Service", name: "מילוי בבילד אפ" }, price: "159", priceCurrency: "ILS" },
     ],
   },
