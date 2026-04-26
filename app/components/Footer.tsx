@@ -26,7 +26,7 @@ export default function Footer() {
           className="transition-opacity hover:opacity-60"
           style={{ color: "rgba(255,255,255,0.25)", textDecoration: "underline", textUnderlineOffset: "3px" }}
         >
-          נועם
+          Noam Karavani
         </a>
       </p>
     </footer>
